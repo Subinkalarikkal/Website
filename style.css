@@ -168,3 +168,41 @@ body {
   margin: 0 auto;            /* Center the box horizontally */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+
+/* Languages Portfolio Section Styling */
+#languages-portfolio {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f5f5f5; /* Optional: Background color for the section */
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.language-item {
+  width: 200px; /* Adjust the width of each item */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.language-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for images */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.language-item img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.language-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Optional: Text color */
+}
