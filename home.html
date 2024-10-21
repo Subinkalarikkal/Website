@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Doe | Coding Educator</title>
+  <title>Subindev K | Coding Educator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,6 +14,7 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#courses">Courses</a></li>
+        <li><a href="#highlights">Highlights</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -34,18 +35,77 @@
   <section class="hero">
     <h2>Welcome to My Coding Classes!</h2>
     <p>I will be teaching Python, Java, JavaScript, C++, and more. Let's code your future!</p>
-    <a href="#courses" class="cta">Enroll in a Course</a>
+    <a href="#contact" class="cta">Enroll in a Course</a>
   </section>
 
+<!-- Courses Section -->
+  <!-- Portfolio Section for Programming Languages -->
+  <section id="courses">
+    <h2>Languages I Teach</h2>
+    
+    <!-- Gallery Wrapper -->
+    <div class="portfolio-gallery">
+      <!-- Language 1 -->
+      <div class="language-item">
+        <img src="python.png" alt="Python">
+        <p>Python</p>
+      </div>
+      
+      <!-- Language 2 -->
+      <div class="language-item">
+        <img src="js.jpeg" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+  
+      <!-- Language 3 -->
+      <div class="language-item">
+        <img src="java.jpg" alt="Java">
+        <p>Java</p>
+      </div>
+      
+      <!-- Language 4 -->
+      <div class="language-item">
+        <img src="c.webp" alt="C">
+        <p>C</p>
+      </div>
+  
+      <!-- Language 5 -->
+      <div class="language-item">
+        <img src="cpp.jpg" alt="C++">
+        <p>C++</p>
+      </div>
+  
+      <!-- Language 6 -->
+      <div class="language-item">
+        <img src="web.webp" alt="Webdevelopment">
+        <p>Webdevelopment</p>
+      </div>
+  
+      <!-- Language 7 -->
+      <div class="language-item">
+        <img src="flutter.png" alt="Flutter">
+        <p>Flutter</p>
+      </div>
+  
+      <!-- Language 8 -->
+      <div class="language-item">
+        <img src="react.png" alt="React">
+        <p>React</p>
+      </div>
+      <!-- Add more language items as needed -->
+    </div>
+  </section>
+
+
   <!-- Portfolio Section -->
-<section id="portfolio">
+<section id="highlights">
     <h2>Highlights</h2><br>
     <div class="portfolio-gallery">
-      <div class="work-item">
+      <div class="work-item" onclick="showPopup('Please contact me for more details')">
         <img src="alexa.jpg" alt="Project 1">
         <p>Project 1: Alexa</p>
       </div>
-      <div class="work-item">
+      <div class="work-item" onclick="showPopup('I would like to know more')">
         <img src="sign.png" alt="Project 2">
         <p>Project 2: Sign Detection</p>
       </div>
@@ -69,71 +129,18 @@
     </div>
   </section>
 
-  <!-- Courses Section -->
-  <!-- Portfolio Section for Programming Languages -->
-<section id="languages-portfolio">
-  <h2>Languages I Teach</h2>
-  
-  <!-- Gallery Wrapper -->
-  <div class="portfolio-gallery">
-    <!-- Language 1 -->
-    <div class="language-item">
-      <img src="images/python.jpg" alt="Python">
-      <p>Python</p>
-    </div>
-    
-    <!-- Language 2 -->
-    <div class="language-item">
-      <img src="images/javascript.jpg" alt="JavaScript">
-      <p>JavaScript</p>
-    </div>
-
-    <!-- Language 3 -->
-    <div class="language-item">
-      <img src="images/java.jpg" alt="Java">
-      <p>Java</p>
-    </div>
-    
-    <!-- Language 4 -->
-    <div class="language-item">
-      <img src="images/java.jpg" alt="C">
-      <p>C</p>
-    </div>
-
-    <!-- Language 5 -->
-    <div class="language-item">
-      <img src="images/java.jpg" alt="C++">
-      <p>C++</p>
-    </div>
-
-    <!-- Language 6 -->
-    <div class="language-item">
-      <img src="images/java.jpg" alt="Webdevelopment">
-      <p>Webdevelopment</p>
-    </div>
-
-    <!-- Language 7 -->
-    <div class="language-item">
-      <img src="images/java.jpg" alt="Flutter">
-      <p>Flutter</p>
-    </div>
-
-    <!-- Language 8 -->
-    <div class="language-item">
-      <img src="images/java.jpg" alt="React">
-      <p>React</p>
-    </div>
-    <!-- Add more language items as needed -->
-  </div>
-</section>
-
+  <script>
+    function showPopup(message) {
+        alert(message);
+    }
+</script>
 
   <!-- Testimonials Section -->
   <section id="testimonials">
     <h2>What My Students Say</h2>
     <blockquote>
-      "John is an amazing instructor! His lessons are clear, and I was able to learn Python in just a few weeks!"
-      <cite>– Jane Smith, Student</cite>
+      "Subindev is an amazing instructor! His lessons are clear, and I was able to learn Python in just a few weeks!"
+      <cite>– Harnek, Student</cite>
     </blockquote>
   </section>
 
@@ -198,7 +205,7 @@
   
   <!-- Footer -->
   <footer>
-    <p>Connect with me on <a href="https://www.linkedin.com/in/subindev-k-4ab3271b4/">LinkedIn</a> | <a href="https://github.com/Subinkalarikkal">GitHub</a></p>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/subindev-k-4ab3271b4/" target="_blank">LinkedIn</a> | <a href="https://github.com/Subinkalarikkal" target="_blank">GitHub</a></p>
     <p>&copy; 2024 Subindev K. All rights reserved.</p>
   </footer> 
 </html>
